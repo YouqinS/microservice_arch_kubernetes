@@ -1,0 +1,34 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: {{ include "micro-warehouse.fullname" . }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: {{ include "micro-warehouse.fullname" . }}
+subjects:
+  - kind: ServiceAccount
+    name: {{ include "micro-warehouse.serviceAccountName" . }}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name:  {{ include "micro-warehouse.fullname" . }}
+rules:
+  - apiGroups:
+      - ""
+      - "extensions"
+      - "app"
+    resources:
+      - namespaces
+      - endpoints
+      - services
+      - nodes
+      - nodes/proxy
+      - pods
+      - configmaps
+    verbs:
+      - list
+      - get
+      - watch

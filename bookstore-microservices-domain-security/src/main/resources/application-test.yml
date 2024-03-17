@@ -3,6 +3,8 @@ eureka:
     enabled: false
 
 spring:
+  liquibase:
+    enabled: false
   datasource:
     initialization-mode: never
 

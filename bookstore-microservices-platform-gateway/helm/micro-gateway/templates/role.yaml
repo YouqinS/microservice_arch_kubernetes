@@ -1,0 +1,34 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: {{ include "micro-gateway.fullname" . }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: {{ include "micro-gateway.fullname" . }}
+subjects:
+  - kind: ServiceAccount
+    name: {{ include "micro-gateway.serviceAccountName" . }}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name:  {{ include "micro-gateway.fullname" . }}
+rules:
+  - apiGroups:
+      - ""
+      - "extensions"
+      - "app"
+    resources:
+      - namespaces
+      - endpoints
+      - services
+      - nodes
+      - nodes/proxy
+      - pods
+      - configmaps
+    verbs:
+      - list
+      - get
+      - watch

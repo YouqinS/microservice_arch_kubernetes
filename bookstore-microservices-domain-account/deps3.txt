@@ -1,0 +1,274 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----< [0;36mcom.github.fenixsoft:bookstore-microservices-domain-account[0;1m >-----[m
+[[1;34mINFO[m] [1mBuilding bookstore-microservices-domain-account 1.0.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.pom
+Progress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.pom (2.3 kB at 5.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.pom
+Progress (1): 2.8/32 kBProgress (1): 5.5/32 kBProgress (1): 8.3/32 kBProgress (1): 11/32 kB Progress (1): 14/32 kBProgress (1): 17/32 kBProgress (1): 19/32 kBProgress (1): 22/32 kBProgress (1): 25/32 kBProgress (1): 28/32 kBProgress (1): 30/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.pom (32 kB at 476 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.pom
+Progress (1): 2.8/21 kBProgress (1): 5.5/21 kBProgress (1): 8.3/21 kBProgress (1): 11/21 kB Progress (1): 14/21 kBProgress (1): 17/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.pom (21 kB at 408 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/54/commons-parent-54.pom
+Progress (1): 4.1/82 kBProgress (1): 8.2/82 kBProgress (1): 12/82 kB Progress (1): 16/82 kBProgress (1): 20/82 kBProgress (1): 24/82 kBProgress (1): 28/82 kBProgress (1): 32/82 kBProgress (1): 36/82 kBProgress (1): 40/82 kBProgress (1): 44/82 kBProgress (1): 49/82 kBProgress (1): 53/82 kBProgress (1): 57/82 kBProgress (1): 61/82 kBProgress (1): 65/82 kBProgress (1): 69/82 kBProgress (1): 73/82 kBProgress (1): 77/82 kBProgress (1): 81/82 kBProgress (1): 82 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/54/commons-parent-54.pom (82 kB at 963 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+Progress (1): 4.1/20 kBProgress (1): 8.2/20 kBProgress (1): 12/20 kB Progress (1): 16/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 407 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom (5.6 kB at 108 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.1.2:tree[m [1m(default-cli)[m @ [36mbookstore-microservices-domain-account[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+Progress (1): 0/2.7 MBProgress (1): 0/2.7 MBProgress (1): 0/2.7 MBProgress (1): 0.1/2.7 MBProgress (1): 0.1/2.7 MBProgress (2): 0.1/2.7 MB | 2.8/239 kBProgress (3): 0.1/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.1/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.1/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.1/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.1/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.2/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.2/2.7 MB | 2.8/239 kB | 2.8/238 kBProgress (3): 0.2/2.7 MB | 2.8/239 kB | 5.5/238 kBProgress (3): 0.2/2.7 MB | 2.8/239 kB | 8.3/238 kBProgress (3): 0.2/2.7 MB | 2.8/239 kB | 11/238 kB Progress (3): 0.2/2.7 MB | 5.5/239 kB | 11/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 11/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 8.3/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 11/239 kB | 14/238 kB Progress (3): 0.2/2.7 MB | 14/239 kB | 14/238 kBProgress (3): 0.2/2.7 MB | 14/239 kB | 18/238 kBProgress (3): 0.2/2.7 MB | 14/239 kB | 22/238 kBProgress (3): 0.2/2.7 MB | 14/239 kB | 26/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 26/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.3/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 30/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 34/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 38/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 42/238 kBProgress (3): 0.4/2.7 MB | 14/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 18/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 22/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 26/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 30/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 30/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 30/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 34/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 38/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 42/239 kB | 47/238 kBProgress (3): 0.4/2.7 MB | 47/239 kB | 47/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 47/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 51/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 55/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 59/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 63/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 67/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 71/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 75/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 79/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 83/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 88/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 92/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 96/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 96/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 96/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 100/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 100/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 104/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 108/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 108/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 47/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 51/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 55/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 59/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 63/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 67/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 71/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 75/239 kB | 112/238 kBProgress (3): 0.5/2.7 MB | 79/239 kB | 112/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 112/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 116/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 120/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 124/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 79/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 83/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 88/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 92/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 128/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 133/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 137/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 141/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 145/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 145/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 149/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 153/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 157/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 96/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 100/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 104/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 108/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 161/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 165/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 169/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 174/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 112/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 116/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 120/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 124/239 kB | 178/238 kBProgress (3): 0.6/2.7 MB | 124/239 kB | 182/238 kBProgress (3): 0.6/2.7 MB | 128/239 kB | 182/238 kBProgress (3): 0.6/2.7 MB | 128/239 kB | 186/238 kBProgress (3): 0.6/2.7 MB | 128/239 kB | 190/238 kBProgress (3): 0.6/2.7 MB | 128/239 kB | 194/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 194/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 198/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 202/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 206/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 128/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 133/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 137/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 141/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 210/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 214/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 219/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 223/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 227/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 227/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 231/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 235/238 kBProgress (3): 0.7/2.7 MB | 145/239 kB | 238 kB    Progress (3): 0.7/2.7 MB | 145/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 149/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 153/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 157/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 161/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 161/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 165/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 169/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 174/239 kB | 238 kBProgress (3): 0.7/2.7 MB | 178/239 kB | 238 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar (238 kB at 260 kB/s)
+Progress (2): 0.7/2.7 MB | 178/239 kBProgress (2): 0.8/2.7 MB | 178/239 kBProgress (2): 0.8/2.7 MB | 182/239 kBProgress (2): 0.8/2.7 MB | 186/239 kBProgress (2): 0.8/2.7 MB | 190/239 kBProgress (2): 0.8/2.7 MB | 194/239 kBProgress (2): 0.8/2.7 MB | 194/239 kBProgress (2): 0.8/2.7 MB | 194/239 kBProgress (2): 0.8/2.7 MB | 198/239 kBProgress (2): 0.8/2.7 MB | 202/239 kBProgress (2): 0.8/2.7 MB | 206/239 kBProgress (2): 0.8/2.7 MB | 210/239 kBProgress (2): 0.8/2.7 MB | 210/239 kBProgress (2): 0.8/2.7 MB | 210/239 kBProgress (2): 0.8/2.7 MB | 214/239 kBProgress (2): 0.8/2.7 MB | 219/239 kBProgress (2): 0.8/2.7 MB | 223/239 kBProgress (2): 0.8/2.7 MB | 227/239 kBProgress (2): 0.8/2.7 MB | 227/239 kBProgress (2): 0.8/2.7 MB | 231/239 kBProgress (2): 0.8/2.7 MB | 235/239 kBProgress (2): 0.8/2.7 MB | 239 kB    Progress (2): 0.9/2.7 MB | 239 kBProgress (2): 0.9/2.7 MB | 239 kBProgress (2): 0.9/2.7 MB | 239 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar (239 kB at 220 kB/s)
+Progress (1): 0.9/2.7 MBProgress (1): 0.9/2.7 MBProgress (1): 0.9/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.0/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.1/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.2/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.3/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.4/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.5/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.6/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.7/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.8/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 1.9/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.0/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.1/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.2/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.3/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.4/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.5/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.6/2.7 MBProgress (1): 2.7/2.7 MBProgress (1): 2.7/2.7 MBProgress (1): 2.7/2.7 MBProgress (1): 2.7 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-core/4.20.0/liquibase-core-4.20.0.jar (2.7 MB at 1.1 MB/s)
+[[1;34mINFO[m] com.github.fenixsoft:bookstore-microservices-domain-account:jar:1.0.0-SNAPSHOT
+[[1;34mINFO[m] +- com.github.fenixsoft:bookstore-microservices-library-infrastructure:jar:1.0.0-SNAPSHOT:compile
+[[1;34mINFO[m] |  +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.cloud:spring-cloud-starter:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |  |  \- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- io.github.openfeign.form:feign-form-spring:jar:3.8.0:compile
+[[1;34mINFO[m] |  |  |     +- io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[[1;34mINFO[m] |  |  |     \- commons-fileupload:commons-fileupload:jar:1.4:compile
+[[1;34mINFO[m] |  |  +- org.springframework:spring-web:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework:spring-beans:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  +- io.github.openfeign:feign-core:jar:10.7.4:compile
+[[1;34mINFO[m] |  |  +- io.github.openfeign:feign-slf4j:jar:10.7.4:compile
+[[1;34mINFO[m] |  |  \- io.github.openfeign:feign-hystrix:jar:10.7.4:compile
+[[1;34mINFO[m] |  |     +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[[1;34mINFO[m] |  |     |  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+[[1;34mINFO[m] |  |     |  +- commons-configuration:commons-configuration:jar:1.8:runtime
+[[1;34mINFO[m] |  |     |  \- com.google.guava:guava:jar:28.2-android:runtime
+[[1;34mINFO[m] |  |     |     +- com.google.guava:failureaccess:jar:1.0.1:runtime
+[[1;34mINFO[m] |  |     |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:runtime
+[[1;34mINFO[m] |  |     |     +- org.checkerframework:checker-compat-qual:jar:2.5.5:runtime
+[[1;34mINFO[m] |  |     |     \- com.google.j2objc:j2objc-annotations:jar:1.3:runtime
+[[1;34mINFO[m] |  |     \- com.netflix.hystrix:hystrix-core:jar:1.5.18:compile
+[[1;34mINFO[m] |  |        +- io.reactivex:rxjava:jar:1.3.8:compile
+[[1;34mINFO[m] |  |        \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[[1;34mINFO[m] |  +- io.github.openfeign:feign-jaxrs2:jar:10.9:compile
+[[1;34mINFO[m] |  |  +- io.github.openfeign:feign-jaxrs:jar:10.7.4:compile
+[[1;34mINFO[m] |  |  \- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+[[1;34mINFO[m] |  +- io.github.openfeign:feign-httpclient:jar:10.7.4:compile
+[[1;34mINFO[m] |  |  \- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+[[1;34mINFO[m] |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[[1;34mINFO[m] |  |     \- commons-codec:commons-codec:jar:1.13:compile
+[[1;34mINFO[m] |  +- org.springframework.cloud:spring-cloud-starter-oauth2:jar:2.2.1.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:jar:2.1.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- com.sun.xml.bind:jaxb-core:jar:2.3.0.1:compile
+[[1;34mINFO[m] |  |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.3.0.1:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework.boot:spring-boot:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE:compile
+[[1;34mINFO[m] |  |  |     +- org.springframework:spring-webmvc:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |     +- org.springframework.security:spring-security-core:jar:5.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |     +- org.springframework.security:spring-security-config:jar:5.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  |     \- org.springframework.security:spring-security-web:jar:5.2.2.RELEASE:compile
+[[1;34mINFO[m] |  |  \- javax.activation:javax.activation-api:jar:1.2.0:compile
+[[1;34mINFO[m] |  +- org.springframework.cloud:spring-cloud-starter-security:jar:2.2.1.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- io.micrometer:micrometer-core:jar:1.3.6:compile
+[[1;34mINFO[m] |  |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[[1;34mINFO[m] |  |  \- org.springframework.cloud:spring-cloud-security:jar:2.2.1.RELEASE:compile
+[[1;34mINFO[m] |  |     \- org.springframework.boot:spring-boot-starter-security:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  +- org.springframework.boot:spring-boot-starter-data-jpa:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-aop:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework:spring-aop:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.aspectj:aspectjweaver:jar:1.9.5:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- com.zaxxer:HikariCP:jar:3.4.2:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework:spring-jdbc:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  +- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+[[1;34mINFO[m] |  |  +- jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile
+[[1;34mINFO[m] |  |  +- jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile
+[[1;34mINFO[m] |  |  +- org.hibernate:hibernate-core:jar:5.4.12.Final:compile
+[[1;34mINFO[m] |  |  |  +- org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile
+[[1;34mINFO[m] |  |  |  +- org.javassist:javassist:jar:3.24.0-GA:compile
+[[1;34mINFO[m] |  |  |  +- net.bytebuddy:byte-buddy:jar:1.10.8:compile
+[[1;34mINFO[m] |  |  |  +- antlr:antlr:jar:2.7.7:compile
+[[1;34mINFO[m] |  |  |  +- org.jboss:jandex:jar:2.1.1.Final:compile
+[[1;34mINFO[m] |  |  |  +- com.fasterxml:classmate:jar:1.5.1:compile
+[[1;34mINFO[m] |  |  |  +- org.dom4j:dom4j:jar:2.1.1:compile
+[[1;34mINFO[m] |  |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[[1;34mINFO[m] |  |  |  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:compile
+[[1;34mINFO[m] |  |  |     +- org.glassfish.jaxb:txw2:jar:2.3.2:compile
+[[1;34mINFO[m] |  |  |     +- com.sun.istack:istack-commons-runtime:jar:3.0.8:compile
+[[1;34mINFO[m] |  |  |     +- org.jvnet.staxex:stax-ex:jar:1.8.1:compile
+[[1;34mINFO[m] |  |  |     \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:compile
+[[1;34mINFO[m] |  |  +- org.springframework.data:spring-data-jpa:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework.data:spring-data-commons:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework:spring-orm:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.springframework:spring-context:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |  |  \- org.springframework:spring-expression:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework:spring-tx:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  |  \- org.springframework:spring-aspects:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  +- org.springframework.boot:spring-boot-starter-jersey:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.3:compile
+[[1;34mINFO[m] |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.3:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.33:compile
+[[1;34mINFO[m] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.33:compile
+[[1;34mINFO[m] |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.33:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter-validation:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[[1;34mINFO[m] |  |  |  \- org.hibernate.validator:hibernate-validator:jar:6.0.18.Final:compile
+[[1;34mINFO[m] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[[1;34mINFO[m] |  |  +- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.core:jersey-server:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  |  +- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[[1;34mINFO[m] |  |  |  |  \- com.sun.activation:jakarta.activation:jar:1.2.2:compile
+[[1;34mINFO[m] |  |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  \- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.ext:jersey-bean-validation:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.ext:jersey-spring5:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  +- org.glassfish.jersey.inject:jersey-hk2:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |     \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  +- org.glassfish.hk2:hk2:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |  +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |  +- org.glassfish.hk2:hk2-core:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |  +- org.glassfish.hk2:hk2-runlevel:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |  \- org.glassfish.hk2:class-model:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  |  |     +- org.ow2.asm:asm:jar:7.1:compile
+[[1;34mINFO[m] |  |  |  |     +- org.ow2.asm:asm-analysis:jar:7.1:compile
+[[1;34mINFO[m] |  |  |  |     +- org.ow2.asm:asm-commons:jar:7.1:compile
+[[1;34mINFO[m] |  |  |  |     +- org.ow2.asm:asm-tree:jar:7.1:compile
+[[1;34mINFO[m] |  |  |  |     \- org.ow2.asm:asm-util:jar:7.1:compile
+[[1;34mINFO[m] |  |  |  \- org.glassfish.hk2:spring-bridge:jar:2.6.1:compile
+[[1;34mINFO[m] |  |  +- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  |  \- org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.29.1:compile
+[[1;34mINFO[m] |  |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+[[1;34mINFO[m] |  +- org.springframework.security:spring-security-jwt:jar:1.0.10.RELEASE:compile
+[[1;34mINFO[m] |  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.60:compile
+[[1;34mINFO[m] |  |     \- org.bouncycastle:bcprov-jdk15on:jar:1.60:compile
+[[1;34mINFO[m] |  +- org.springframework.boot:spring-boot-starter-cache:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-starter:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |  \- org.springframework.boot:spring-boot-starter-logging:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  |     +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[[1;34mINFO[m] |  |  |     |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[[1;34mINFO[m] |  |  |     +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1:compile
+[[1;34mINFO[m] |  |  |     |  \- org.apache.logging.log4j:log4j-api:jar:2.12.1:compile
+[[1;34mINFO[m] |  |  |     \- org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[[1;34mINFO[m] |  |  \- org.springframework:spring-context-support:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |  +- com.github.ben-manes.caffeine:caffeine:jar:2.8.1:compile
+[[1;34mINFO[m] |  |  +- org.checkerframework:checker-qual:jar:3.1.0:compile
+[[1;34mINFO[m] |  |  \- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[[1;34mINFO[m] |  +- org.hsqldb:hsqldb:jar:2.5.0:runtime
+[[1;34mINFO[m] |  \- mysql:mysql-connector-java:jar:8.0.19:runtime
+[[1;34mINFO[m] +- com.github.fenixsoft:bookstore-microservices-library-testing:jar:1.0.0-SNAPSHOT:test
+[[1;34mINFO[m] |  \- org.springframework.boot:spring-boot-starter-test:jar:2.2.6.RELEASE:test
+[[1;34mINFO[m] |     +- org.springframework.boot:spring-boot-test:jar:2.2.6.RELEASE:test
+[[1;34mINFO[m] |     +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.6.RELEASE:test
+[[1;34mINFO[m] |     +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[[1;34mINFO[m] |     |  \- net.minidev:json-smart:jar:2.3:test
+[[1;34mINFO[m] |     |     \- net.minidev:accessors-smart:jar:1.2:test
+[[1;34mINFO[m] |     +- org.junit.jupiter:junit-jupiter:jar:5.5.2:test
+[[1;34mINFO[m] |     |  +- org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test
+[[1;34mINFO[m] |     |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[[1;34mINFO[m] |     |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[[1;34mINFO[m] |     |  |  \- org.junit.platform:junit-platform-commons:jar:1.5.2:test
+[[1;34mINFO[m] |     |  +- org.junit.jupiter:junit-jupiter-params:jar:5.5.2:test
+[[1;34mINFO[m] |     |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.5.2:test
+[[1;34mINFO[m] |     |     \- org.junit.platform:junit-platform-engine:jar:1.5.2:test
+[[1;34mINFO[m] |     +- org.mockito:mockito-junit-jupiter:jar:3.1.0:test
+[[1;34mINFO[m] |     +- org.assertj:assertj-core:jar:3.13.2:test
+[[1;34mINFO[m] |     +- org.hamcrest:hamcrest:jar:2.1:test
+[[1;34mINFO[m] |     +- org.mockito:mockito-core:jar:3.1.0:test
+[[1;34mINFO[m] |     |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.8:test
+[[1;34mINFO[m] |     |  \- org.objenesis:objenesis:jar:2.6:test
+[[1;34mINFO[m] |     +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[[1;34mINFO[m] |     |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[[1;34mINFO[m] |     +- org.springframework:spring-core:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |     |  \- org.springframework:spring-jcl:jar:5.2.5.RELEASE:compile
+[[1;34mINFO[m] |     +- org.springframework:spring-test:jar:5.2.5.RELEASE:test
+[[1;34mINFO[m] |     \- org.xmlunit:xmlunit-core:jar:2.6.4:test
+[[1;34mINFO[m] +- org.liquibase:liquibase-core:jar:4.20.0:compile
+[[1;34mINFO[m] |  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[[1;34mINFO[m] |  +- org.yaml:snakeyaml:jar:1.25:compile
+[[1;34mINFO[m] |  \- com.opencsv:opencsv:jar:5.7.1:compile
+[[1;34mINFO[m] |     +- org.apache.commons:commons-lang3:jar:3.9:compile
+[[1;34mINFO[m] |     +- org.apache.commons:commons-text:jar:1.10.0:compile
+[[1;34mINFO[m] |     \- org.apache.commons:commons-collections4:jar:4.4:compile
+[[1;34mINFO[m] +- org.springframework.cloud:spring-cloud-starter-kubernetes-all:jar:1.1.2.RELEASE:compile
+[[1;34mINFO[m] |  +- org.springframework.cloud:spring-cloud-kubernetes-core:jar:1.1.2.RELEASE:compile
+[[1;34mINFO[m] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.2.6.RELEASE:compile
+[[1;34mINFO[m] |  |  \- org.springframework.cloud:spring-cloud-context:jar:2.2.2.RELEASE:compile
+[[1;34mINFO[m] |  +- org.springframework.cloud:spring-cloud-kubernetes-config:jar:1.1.2.RELEASE:compile
+[[1;34mINFO[m] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile
+[[1;34mINFO[m] |  \- org.springframework.cloud:spring-cloud-kubernetes-discovery:jar:1.1.2.RELEASE:compile
+[[1;34mINFO[m] \- io.fabric8:kubernetes-client:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-core:jar:4.10.1:compile
+[[1;34mINFO[m]    |  +- io.fabric8:kubernetes-model-common:jar:4.4.1:compile
+[[1;34mINFO[m]    |  +- io.sundr:builder-annotations:jar:0.21.0:compile
+[[1;34mINFO[m]    |  |  +- io.sundr:sundr-core:jar:0.21.0:compile
+[[1;34mINFO[m]    |  |  +- io.sundr:sundr-codegen:jar:0.21.0:compile
+[[1;34mINFO[m]    |  |  \- io.sundr:resourcecify-annotations:jar:0.21.0:compile
+[[1;34mINFO[m]    |  +- io.sundr:transform-annotations:jar:0.21.0:compile
+[[1;34mINFO[m]    |  +- org.jsonschema2pojo:jsonschema2pojo-core:jar:0.4.23:compile
+[[1;34mINFO[m]    |  |  +- com.google.code.javaparser:javaparser:jar:1.0.11:compile
+[[1;34mINFO[m]    |  |  +- com.google.android:android:jar:4.1.1.4:compile
+[[1;34mINFO[m]    |  |  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[[1;34mINFO[m]    |  |  |  +- org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+[[1;34mINFO[m]    |  |  |  +- xerces:xmlParserAPIs:jar:2.6.2:compile
+[[1;34mINFO[m]    |  |  |  +- xpp3:xpp3:jar:1.1.4c:compile
+[[1;34mINFO[m]    |  |  |  \- org.json:json:jar:20080701:compile
+[[1;34mINFO[m]    |  |  +- com.sun.codemodel:codemodel:jar:2.6:compile
+[[1;34mINFO[m]    |  |  +- com.google.code.gson:gson:jar:2.8.6:compile
+[[1;34mINFO[m]    |  |  +- com.squareup.moshi:moshi:jar:1.1.0:compile
+[[1;34mINFO[m]    |  |  +- commons-lang:commons-lang:jar:2.6:compile
+[[1;34mINFO[m]    |  |  +- commons-io:commons-io:jar:2.4:compile
+[[1;34mINFO[m]    |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[[1;34mINFO[m]    |  |  +- joda-time:joda-time:jar:2.10.5:compile
+[[1;34mINFO[m]    |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile
+[[1;34mINFO[m]    |  |  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile
+[[1;34mINFO[m]    |  |  \- com.google.code.findbugs:annotations:jar:1.3.9:compile
+[[1;34mINFO[m]    |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.3:compile
+[[1;34mINFO[m]    |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-rbac:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-admissionregistration:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-apps:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-autoscaling:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-apiextensions:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-batch:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-certificates:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-coordination:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-discovery:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-events:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-extensions:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-networking:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-metrics:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-policy:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-scheduling:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-settings:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:kubernetes-model-storageclass:jar:4.10.1:compile
+[[1;34mINFO[m]    +- io.fabric8:openshift-model:jar:4.10.1:compile
+[[1;34mINFO[m]    +- com.squareup.okhttp3:okhttp:jar:3.14.7:compile
+[[1;34mINFO[m]    |  \- com.squareup.okio:okio:jar:1.17.2:compile
+[[1;34mINFO[m]    +- com.squareup.okhttp3:logging-interceptor:jar:3.14.7:compile
+[[1;34mINFO[m]    +- org.slf4j:slf4j-api:jar:1.7.30:compile
+[[1;34mINFO[m]    +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.10.3:compile
+[[1;34mINFO[m]    +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.3:compile
+[[1;34mINFO[m]    |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile
+[[1;34mINFO[m]    +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile
+[[1;34mINFO[m]    +- com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile
+[[1;34mINFO[m]    +- io.fabric8:zjsonpatch:jar:0.3.0:compile
+[[1;34mINFO[m]    \- com.github.mifmif:generex:jar:1.0.2:compile
+[[1;34mINFO[m]       \- dk.brics.automaton:automaton:jar:1.11-8:compile
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.140 s
+[[1;34mINFO[m] Finished at: 2024-03-16T19:45:15+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

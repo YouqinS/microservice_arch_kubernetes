@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="youqin (generated)" id="1710602657796-1">
+        <createTable tableName="account">
+            <column autoIncrement="true" name="id" type="INT UNSIGNED">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="username" type="VARCHAR(50)">
+                <constraints unique="true"/>
+            </column>
+            <column name="password" type="VARCHAR(100)"/>
+            <column name="name" type="VARCHAR(50)"/>
+            <column name="avatar" type="VARCHAR(100)"/>
+            <column name="telephone" type="VARCHAR(20)">
+                <constraints unique="true"/>
+            </column>
+            <column name="email" type="VARCHAR(100)">
+                <constraints unique="true"/>
+            </column>
+            <column name="location" type="VARCHAR(100)"/>
+        </createTable>
+    </changeSet>
+        <changeSet author="youqin (generated)" id="1710602681147-1">
+        <insert tableName="account">
+            <column name="id" valueNumeric="1"/>
+            <column name="username" value="icyfenix"/>
+            <column name="password" value="$2a$10$iIim4LtpT2yjxU2YVNDuO.yb1Z2lq86vYBZleAeuIh2aFXjyoMCM."/>
+            <column name="name" value="周志明"/>
+            <column name="avatar" value=""/>
+            <column name="telephone" value="18888888888"/>
+            <column name="email" value="icyfenix@gmail.com"/>
+            <column name="location" value="唐家湾港湾大道科技一路3号远光软件股份有限公司"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

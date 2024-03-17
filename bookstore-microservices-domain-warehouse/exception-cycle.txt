@@ -1,0 +1,101 @@
+youqin@youqin-Latitude-7490:~/Downloads/CSM_HU/_thesis/projects/bookstore/microservice_arch_kubernetes/bookstore-microservices-library-infrastructure$ kubectl logs micro-warehouse-1710672183-574cdf776-xnhb8
+    ______           _         ____              __  _____ __
+   / ____/__  ____  (_)  __   / __ )____  ____  / /_/ ___// /_____  ________
+  / /_  / _ \/ __ \/ / |/_/  / __  / __ \/ __ \/ __/\__ \/ __/ __ \/ ___/ _ \
+ / __/ /  __/ / / / />  <   / /_/ / /_/ / /_/ / /_ ___/ / /_/ /_/ / /  /  __/
+/_/    \___/_/ /_/_/_/|_|  /_____/\____/\____/\__//____/\__/\____/_/   \___/
+                                                          Warehouse Domain
+
+2024-03-17 10:44:11.544  INFO 1 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configmap.warehouse.default'}]
+2024-03-17 10:44:11.561  INFO 1 --- [           main] c.g.f.b.warehouse.WarehouseApplication   : The following profiles are active: kubernetes,mysql
+2024-03-17 10:44:12.827  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-17 10:44:12.953  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 3 JPA repository interfaces.
+2024-03-17 10:44:13.106  WARN 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-03-17 10:44:13.441  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1276b808-7103-355d-9f5f-805809c91b0c
+2024-03-17 10:44:13.732  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.github.fenixsoft.bookstore.domain.security.AccountServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.898  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.907  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.911  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@60e949e1' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.912  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.918  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.919  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.920  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:14.364  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-17 10:44:14.381  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-17 10:44:14.381  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2024-03-17 10:44:14.480  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-17 10:44:14.480  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2880 ms
+2024-03-17 10:44:15.077  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+youqin@youqin-Latitude-7490:~/Downloads/CSM_HU/_thesis/projects/bookstore/microservice_arch_kubernetes/bookstore-microservices-library-infrastructure$ kubectl logs micro-warehouse-1710672183-574cdf776-xnhb8
+    ______           _         ____              __  _____ __
+   / ____/__  ____  (_)  __   / __ )____  ____  / /_/ ___// /_____  ________
+  / /_  / _ \/ __ \/ / |/_/  / __  / __ \/ __ \/ __/\__ \/ __/ __ \/ ___/ _ \
+ / __/ /  __/ / / / />  <   / /_/ / /_/ / /_/ / /_ ___/ / /_/ /_/ / /  /  __/
+/_/    \___/_/ /_/_/_/|_|  /_____/\____/\____/\__//____/\__/\____/_/   \___/
+                                                          Warehouse Domain
+
+2024-03-17 10:44:11.544  INFO 1 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configmap.warehouse.default'}]
+2024-03-17 10:44:11.561  INFO 1 --- [           main] c.g.f.b.warehouse.WarehouseApplication   : The following profiles are active: kubernetes,mysql
+2024-03-17 10:44:12.827  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-17 10:44:12.953  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 3 JPA repository interfaces.
+2024-03-17 10:44:13.106  WARN 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-03-17 10:44:13.441  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1276b808-7103-355d-9f5f-805809c91b0c
+2024-03-17 10:44:13.732  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.github.fenixsoft.bookstore.domain.security.AccountServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.898  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.907  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.911  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@60e949e1' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.912  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.918  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.919  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:13.920  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-17 10:44:14.364  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-17 10:44:14.381  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-17 10:44:14.381  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2024-03-17 10:44:14.480  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-17 10:44:14.480  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2880 ms
+2024-03-17 10:44:15.077  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-17 10:44:15.608  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-17 10:44:16.277  INFO 1 --- [           main] liquibase.lockservice                    : Successfully acquired change log lock
+2024-03-17 10:44:17.563  INFO 1 --- [           main] liquibase.changelog                      : Reading from warehouse.DATABASECHANGELOG
+2024-03-17 10:44:17.706  INFO 1 --- [           main] liquibase.lockservice                    : Successfully released change log lock
+2024-03-17 10:44:17.831  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-17 10:44:17.936  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2024-03-17 10:44:18.098  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-17 10:44:18.238  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-17 10:44:19.080  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-17 10:44:19.091  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-17 10:44:19.672  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-17 10:44:19.728  WARN 1 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'JWTAccessTokenService' defined in URL [jar:file:/bookstore-warehouse.jar!/BOOT-INF/lib/bookstore-microservices-library-infrastructure-1.0.0-SNAPSHOT.jar!/com/github/fenixsoft/bookstore/infrastructure/security/JWTAccessTokenService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'JWTAccessToken' defined in URL [jar:file:/bookstore-warehouse.jar!/BOOT-INF/lib/bookstore-microservices-library-infrastructure-1.0.0-SNAPSHOT.jar!/com/github/fenixsoft/bookstore/infrastructure/security/JWTAccessToken.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authenticAccountDetailsService': Unsatisfied dependency expressed through field 'accountRepository'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authenticAccountRepository': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.fenixsoft.bookstore.domain.security.AccountServiceClient': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feignConfiguration': Unsatisfied dependency expressed through field 'resource'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resourceServerConfiguration': Unsatisfied dependency expressed through field 'tokenService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'JWTAccessTokenService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-03-17 10:44:19.731  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-17 10:44:19.732  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-17 10:44:19.747  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-17 10:44:19.749  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-17 10:44:19.772  INFO 1 --- [           main] ConditionEvaluationReportLoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-17 10:44:19.776 ERROR 1 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  JWTAccessTokenService defined in URL [jar:file:/bookstore-warehouse.jar!/BOOT-INF/lib/bookstore-microservices-library-infrastructure-1.0.0-SNAPSHOT.jar!/com/github/fenixsoft/bookstore/infrastructure/security/JWTAccessTokenService.class]
+↑     ↓
+|  JWTAccessToken defined in URL [jar:file:/bookstore-warehouse.jar!/BOOT-INF/lib/bookstore-microservices-library-infrastructure-1.0.0-SNAPSHOT.jar!/com/github/fenixsoft/bookstore/infrastructure/security/JWTAccessToken.class]
+↑     ↓
+|  authenticAccountDetailsService (field private com.github.fenixsoft.bookstore.domain.security.AuthenticAccountRepository com.github.fenixsoft.bookstore.domain.security.AuthenticAccountDetailsService.accountRepository)
+↑     ↓
+|  authenticAccountRepository (field private com.github.fenixsoft.bookstore.domain.security.AccountServiceClient com.github.fenixsoft.bookstore.domain.security.AuthenticAccountRepository.userService)
+↑     ↓
+|  com.github.fenixsoft.bookstore.domain.security.AccountServiceClient
+↑     ↓
+|  feignConfiguration (field private org.springframework.security.oauth2.client.token.grant.client.ClientCredentialsResourceDetails com.github.fenixsoft.bookstore.infrastructure.configuration.FeignConfiguration.resource)
+↑     ↓
+|  resourceServerConfiguration (field private com.github.fenixsoft.bookstore.infrastructure.security.JWTAccessTokenService com.github.fenixsoft.bookstore.infrastructure.configuration.ResourceServerConfiguration.tokenService)
+└─────┘
+

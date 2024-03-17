@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="youqin (generated)" id="1710598742431-1">
+        <createTable tableName="payment">
+            <column autoIncrement="true" name="id" type="INT UNSIGNED">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="pay_id" type="VARCHAR(100)"/>
+            <column name="create_time" type="datetime"/>
+            <column name="total_price" type="DECIMAL(10)"/>
+            <column name="expires" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="payment_link" type="VARCHAR(300)"/>
+            <column name="pay_state" type="VARCHAR(20)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="youqin (generated)" id="1710598742431-2">
+        <createTable tableName="wallet">
+            <column autoIncrement="true" name="id" type="INT UNSIGNED">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="money" type="DECIMAL(10)"/>
+            <column name="account_id" type="INT UNSIGNED"/>
+        </createTable>
+    </changeSet>
+        <changeSet author="youqin (generated)" id="1710598640437-1">
+        <insert tableName="wallet">
+            <column name="id" valueNumeric="1"/>
+            <column name="money" valueNumeric="100"/>
+            <column name="account_id" valueNumeric="1"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

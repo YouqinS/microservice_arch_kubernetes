@@ -5,6 +5,8 @@ eureka:
 database: hsqldb
 
 spring:
+  liquibase:
+    enabled: false
   datasource:
     schema: "classpath:db/${database}/schema.sql"
     data: "classpath:db/${database}/data.sql"

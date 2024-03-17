@@ -1,0 +1,55 @@
+Name:             bookstore-microservices-domain-payment-57b4bd9b65-ljsb6
+Namespace:        bookstore-microservices
+Priority:         0
+Service Account:  book-admin
+Node:             minikube/192.168.49.2
+Start Time:       Sat, 16 Mar 2024 13:02:55 +0200
+Labels:           app=payment
+                  pod-template-hash=57b4bd9b65
+Annotations:      <none>
+Status:           Running
+IP:               10.244.0.140
+IPs:
+  IP:           10.244.0.140
+Controlled By:  ReplicaSet/bookstore-microservices-domain-payment-57b4bd9b65
+Containers:
+  payment:
+    Container ID:   docker://3b2214c3cd7e717f47679dc2cda3a3d652082f84017e41e560bf6cd2f1af8ebc
+    Image:          icyfenix/bookstore-kubernetes-domain-payment
+    Image ID:       docker-pullable://icyfenix/bookstore-kubernetes-domain-payment@sha256:ea3115e5f7578e527344c6131d146fe98c38745048728d7ba8c05547eb64803e
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Sat, 16 Mar 2024 13:03:04 +0200
+    Ready:          True
+    Restart Count:  0
+    Environment:
+      PORT:               80
+      JAVA_TOOL_OPTIONS:  -agentlib:jdwp=transport=dt_socket,server=y,address=5005,suspend=n,quiet=y
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-h7zn5 (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  kube-api-access-h7zn5:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  14m   default-scheduler  Successfully assigned bookstore-microservices/bookstore-microservices-domain-payment-57b4bd9b65-ljsb6 to minikube
+  Normal  Pulling    14m   kubelet            Pulling image "icyfenix/bookstore-kubernetes-domain-payment"
+  Normal  Pulled     14m   kubelet            Successfully pulled image "icyfenix/bookstore-kubernetes-domain-payment" in 1.238s (7.045s including waiting)
+  Normal  Created    14m   kubelet            Created container payment
+  Normal  Started    14m   kubelet            Started container payment
